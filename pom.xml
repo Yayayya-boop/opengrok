@@ -66,11 +66,11 @@ Portions Copyright (c) 2018, 2020, Chris Fraire <cfraire@me.com>.
         <compileSource>11</compileSource>
         <compileTarget>11</compileTarget>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jersey.version>3.1.0</jersey.version>
+        <jersey.version>3.1.4</jersey.version>
         <!-- Jackson version needs to match the version of Jackson which Jersey
         (notably the jersey-media-json-jackson artifact used in opengrok-web)
         depends on or otherwise weird things will happen. -->
-        <jackson.version>2.14.1</jackson.version>
+        <jackson.version>2.15.0</jackson.version>
         <junit.version>5.7.2</junit.version>
         <hamcrest.version>2.2</hamcrest.version>
         <maven-surefire.version>3.0.0-M5</maven-surefire.version>
